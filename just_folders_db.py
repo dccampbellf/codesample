@@ -10,7 +10,7 @@ from sqlalchemy.orm import sessionmaker
 
 from pprint import pprint
 
-url = 'mysql://dccampbellf:Dojo2020!@127.0.0.1/dbclay_akvo'
+url = XXXXXX
 engine = create_engine(url, echo=True)
 connection = engine.connect()
 
